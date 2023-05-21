@@ -9,23 +9,33 @@
 </head>
 <body>
 <!-- view highscores-->
-    <a href="./highScores.html">View HighScores</a>
-
+    <section class="highScores">
+        <a href="./highScores.html">View HighScores</a>
+    </section>
 <!--quiz time-->
-    <section>
-
+    <section class="timer">
+        Time left: <span id="seconds">75 seconds</span>
     </section>
 
-<!--instruction of starting quiz and start button -->
-    <section>
-        <h1>Coding Quiz Challenge</h1>
-        <p>
-            Try to answer the following code related questions within the time limit.
-            Keep in mind that incorrect answers will penalize your score time by ten seconds! 
-        </p>
+<!--Phase 1: instruction of starting quiz and start button -->
+    <main id="quiz-container">
+        <section>
+            <h1>Coding Quiz Challenge</h1>
+            <p>
+                Try to answer the following code related questions within the time limit.
+                Keep in mind that incorrect answers will penalize your score time by ten seconds! 
+            </p>
         <button id="start">Start Quiz</button>
-    </section>
+        </section>
+<!--Phase 1: questions with possible responses as button -->
+        <section id="quiz-questions">
+
+        </section>
+<!--Phase 1: quiz complete screen, final score(seconds remaining)
+     and input box for initials and to submit score to high score-->
+    </main>
     <script src="./JS/index.js"></script>
+    <script src="./JS/quiz-questions.js"></script>
 
 </body>
 </html>

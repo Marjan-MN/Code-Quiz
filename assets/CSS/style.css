@@ -6,18 +6,22 @@
 
 
 
-section{
-       text-align: center;   
+main{
+    text-align: center;   
+}
+
+.timer{
+    float: right;
 }
 
 /*start button*/
 #start {
-background-color: var(--blue);
-color: aliceblue;
-border-radius: 5px;
-border: var(--blue) ;
-width: 120px;
-height: 45px;
+    background-color: var(--blue);
+    color: aliceblue;
+    border-radius: 5px;
+    border: var(--blue) ;
+    width: 120px;
+    height: 45px;
 }
 
 #start:hover{
