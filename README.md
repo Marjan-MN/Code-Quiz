@@ -4,7 +4,7 @@ A code quiz built using HTML, CSS, and JavaScript. It offers an interactive and 
 
 Through this project, I had the opportunity to learn and enhance various skills. Firstly, I gained hands-on experience with HTML, CSS, and JavaScript, deepening my understanding of these web development languages. I became proficient in utilizing HTML for structuring web pages, CSS for styling and layout, and JavaScript for adding interactivity and functionality to the quiz. Moreover, I learned how to implement a timer feature, which required me to work with JavaScript's timing functions and manipulate DOM elements. Additionally, I gained insights into the importance of user experience and interface design, as I aimed to create an engaging and intuitive quiz for participants. Lastly, by developing a grading system.
 
-## Table of Contents (Optional)
+## Contents
 
 
 - [Installation](#installation)

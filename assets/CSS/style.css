@@ -1,0 +1,25 @@
+/* Variable color */
+:root{
+    --blue : rgb(50, 113, 209)
+
+}
+
+
+
+section{
+       text-align: center;   
+}
+
+/*start button*/
+#start {
+background-color: var(--blue);
+color: aliceblue;
+border-radius: 5px;
+border: var(--blue) ;
+width: 120px;
+height: 45px;
+}
+
+#start:hover{
+    transform: scale(1.1);
+}
