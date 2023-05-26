@@ -13,13 +13,13 @@
         <a href="./highScores.html">View HighScores</a>
     </section>
 <!--quiz time-->
-    <section class="timer">
-        Time left: <span id="seconds">75 seconds</span>
+    <section id='timer' class="timer">
+        Time left: <span id="seconds">75 Seconds</span>
     </section>
 
 <!--Phase 1: instruction of starting quiz and start button -->
     <main id="quiz-container">
-        <section>
+        <section id="quiz-start">
             <h1>Coding Quiz Challenge</h1>
             <p>
                 Try to answer the following code related questions within the time limit.
@@ -29,6 +29,25 @@
         </section>
 <!--Phase 1: questions with possible responses as button -->
         <section id="quiz-questions">
+            <h1 id="question-title"></h1>
+            <button id="option0" class="optionButton"></button><br/>
+            <button id="option1" class="optionButton"></button><br/>
+            <button id="option2" class="optionButton"></button><br/>
+            <button id="option3" class="optionButton"></button>
+        </section>
+        <section id="inputInitials">
+            <h1>All Done!</h1>
+            <p id="finalScore"></p>
+            <form>
+                <label for="initials">Enter Initials:</label>
+                <input type="text" id="initials"> </form>
+                <button id="submit">Submit!</button><br><br>
+            
+        </section>
+        <section id="submitedHighscores">
+            <h1>High Scores</h1><br><br>
+            <button id="go-back" href="quiz-container">Go Back</button>
+            <button id="clear-highscores">Clear Highscores</button>
 
         </section>
 <!--Phase 1: quiz complete screen, final score(seconds remaining)

@@ -4,8 +4,6 @@
 
 }
 
-
-
 main{
     text-align: center;   
 }
@@ -27,3 +25,16 @@ main{
 #start:hover{
     transform: scale(1.1);
 }
+
+#submit {
+    background-color: var(--blue);
+    color: aliceblue;
+    border-radius: 5px;
+    border: var(--blue) ;
+    width: 80px;
+    height: 25px;
+}
+
+ #submit:hover{
+    transform: scale(1.05);
+ }
