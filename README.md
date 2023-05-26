@@ -1,5 +1,4 @@
 # Code-Quiz
-# Code-Quiz
 ## Description
 A code quiz built using HTML, CSS, and JavaScript. It offers an interactive and engaging experience for users who want to test their coding knowledge. The quiz incorporates a timer to add a sense of urgency and challenge. Users are presented with a series of coding-related questions and multiple-choice answers. After completing the quiz, the project automatically grades the user's performance based on the number of correct answers. This feedback allows users to evaluate their coding skills and identify areas for improvement. Overall, the code quiz project combines technical expertise with a user-friendly interface to create an enjoyable and educational experience.
 
